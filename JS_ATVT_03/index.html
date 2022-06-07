@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora básica</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+
+
+</head>
+<body class="display">
+
+    <main>
+        <div class="container">
+            <form >
+              <p>Calculadora</p>
+              <input type="number" id="operando1" class="num" placeholder="Primeiro valor" />
+              <br />
+              <label for="operador"></label>
+                      <select id="operador" class="input" name="operador">
+                          <option value="soma">Soma</option>
+                          <option value="subtracao">Subtração</option>
+                          <option value="multiplicacao">Multiplicação</option>
+                          <option value="divisao">Divisão</option>
+                      </select>
+                      <br />
+                      
+                      <input type="number" id="operando2" class="num" placeholder="Segundo valor" />
+                      <br />
+              <input type="button" id="button_calculus" value="Calcular"><br>
+              <section class="border display">
+                      <div id="result"></div>
+                  </section>
+              
+            </form>
+            <div class="drops">
+              <div class="drop drop-1"></div>
+              <div class="drop drop-2"></div>
+              <div class="drop drop-3"></div>
+              <div class="drop drop-4"></div>
+              <div class="drop drop-5"></div>
+            </div>
+          </div>
+
+    </main>
+
+    
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
