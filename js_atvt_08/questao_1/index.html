@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./index.css">
+
+        <title>Atividade 7 questão 1</title>
+
+    </head>
+    <body class="display">
+        
+        <main class="container display">
+            <h1 class="title">Formulário</h1>
+            <form action="/url" method="post" class="form">
+                <p>Nome Completo</p>
+                <input type="text" id="name" class="username" placeholder="Nome"/>
+                <p>Data de Nascimento</p>
+                <input type="text" id="dateDay" class="userbirthday" placeholder="Dia"/>
+                <input type="text" id="dateMonth" class="userMonth" placeholder="Mês"/>
+                <input type="text" id="dateYear" class="userYear" placeholder="Ano"/>
+                <p>Peso e Altura</p>
+                <input type="text" id="weight" class="userweight" placeholder="peso"/>
+                <input type="text" id="height" class="userheight" placeholder="altura"/>
+                <p>Gênero</p>
+                <select id="genderId">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </form>
+            <br />
+            <button type="button" id="bttn" class="button">Enviar</button>
+
+            <section class="border display">
+                <div id="valor"></div>
+            </section>
+        </main>
+        
+        <script src="./index.js"></script>
+
+    </body>
+</html>

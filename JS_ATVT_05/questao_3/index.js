@@ -1,5 +1,3 @@
-// a. O usuário selecionar um menu de opções (‘HTML select’) de produtos previamente cadastrados;
-// b. Clicar em um botão ‘exibir’ que exibe a imagem do produto selecionado.
 
 const select = document.querySelector("#produto");
 

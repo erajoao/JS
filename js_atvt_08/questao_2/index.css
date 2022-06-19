@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(234, 233, 234);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 40vw;
+    height: 90vh;
+    background-color: #fff;
+    border-left: 5px solid rgb(237, 37, 83);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+    font-weight: 500;
+    color: rgb(237, 37, 83);
+}
+form {
+text-align: center;
+}
+
+P {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color: rgb(237, 37, 83);
+    text-align: center;
+}
+
+.button[type="button"] {
+    width: 7vw;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid rgb(98, 101, 108);
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    color: rgb(98, 101, 108);
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.button[type="button"]:hover {
+    background-color: #fff;
+    border: 1px solid rgb(237, 37, 83);
+    color: rgb(237, 37, 83);
+    transition: 0.2s;
+}
+
+#resultado {
+    color: rgb(237, 37, 83);
+    text-align: center;
+    font-size: 1.5vh;
+}
