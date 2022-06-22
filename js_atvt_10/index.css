@@ -16,17 +16,15 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    display:inline-block;
 }
 
 .container {
-    width: 40vw;
-    height: 90vh;
+    width: 30vw;
+    height: 80vh;
     background-color: #fff;
     border-left: 5px solid rgb(237, 37, 83);
     border-radius: 20px;
     padding: 20px;
-    display:inline-block;
 }
 
 .title {
@@ -59,7 +57,6 @@ P {
     color: rgb(98, 101, 108);
     background-color: #fff;
     cursor: pointer;
-    
 
 }
 
@@ -74,4 +71,11 @@ P {
     color: rgb(237, 37, 83);
     text-align: center;
     font-size: 1.5vh;
+}
+.myTable {
+    background-color:#FFFFFF;
+    border-spacing: 10px;
+    text-align: center;
+    align-items: center;
+    
 }
